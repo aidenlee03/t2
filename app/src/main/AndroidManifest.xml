@@ -13,14 +13,25 @@
         android:theme="@style/Theme.AppCompat"
         tools:targetApi="31">
         <activity
-            android:name=".T2ac4main"
-            android:exported="true">
+            android:name=".tuan3.Demo33MainActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".tuan3.Demo32Activity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".tuan3.T31MainActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".T2ac4main"
+            android:exported="true" />
         <activity
             android:name=".T2ac3main"
             android:exported="false" />
